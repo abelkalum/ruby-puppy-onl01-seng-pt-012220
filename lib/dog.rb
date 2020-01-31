@@ -21,6 +21,7 @@ class Dog
 	
 	def print_all
     @@ll.each{|dog| puts dog}
+    puts dog.name
 	end
  end
 end 
