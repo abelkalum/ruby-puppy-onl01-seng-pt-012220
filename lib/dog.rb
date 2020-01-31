@@ -30,4 +30,5 @@ class Dog
      @@all.each do |dog|
 			return dog.name
     end
+  end
 end 
