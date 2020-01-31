@@ -28,6 +28,5 @@ class Dog
    
    def self.save
      @@all << self.new
-    end
   end
 end 
