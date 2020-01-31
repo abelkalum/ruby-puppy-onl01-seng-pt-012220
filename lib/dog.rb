@@ -22,5 +22,9 @@ class Dog
     names.each do |name|
      puts "#{name}"
      x += 1
-   end
+  end
+  
+  def clear_all
+    
+  
 end
