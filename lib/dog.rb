@@ -23,5 +23,4 @@ class Dog
     @@ll.each{|dog| puts dog}
      puts dog.name
    end
-  end
 end 
