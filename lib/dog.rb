@@ -27,6 +27,6 @@ class Dog
    end
    
    def self.save
-     @@all << "Pluto"
+     @@all << dog.name
    end
 end 
