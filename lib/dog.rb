@@ -7,6 +7,10 @@ class Dog
  
   def initialize(name)
     @name = name
+    @@save << self
+  end
+  
+  def save
     @@all << self
   end
  
@@ -16,7 +20,7 @@ class Dog
   
   def print_all
     names.each do |name|
-     puts "#{x}. #{name}"
+     puts "#{name}"
      x += 1
    end
 end
