@@ -26,7 +26,7 @@ class Dog
 		end
    end
    
-   def self.save
+   def Dog.save
      @@all << self
   end
 end 
