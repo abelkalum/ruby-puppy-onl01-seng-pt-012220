@@ -19,7 +19,7 @@ class Dog
 		end
 	end
 	
-	def print_all
+	def self.print_all
     @@ll.each{|dog| puts dog}
   end
 end 
