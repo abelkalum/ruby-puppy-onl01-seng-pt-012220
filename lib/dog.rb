@@ -19,11 +19,6 @@ class Dog
       puts dog.name
   end
   
-  def print_all
-    self.each do |name|
-     puts "#{name}"
-  end
-  
   def clear_all
     @all.clear
   end
