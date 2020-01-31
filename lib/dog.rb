@@ -20,9 +20,7 @@ class Dog
 	end
 	
 	def print_all
-	  def print_songs
-    @songs.each{|song| puts song}
-  end
-		end
+    @@ll.each{|dog| puts dog}
 	end
+ end
 end 
