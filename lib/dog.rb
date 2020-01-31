@@ -27,6 +27,6 @@ class Dog
    end
    
    def self.save
-     @@all << self
+     @@all << pluto
    end
 end 
