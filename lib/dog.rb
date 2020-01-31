@@ -27,8 +27,7 @@ class Dog
    end
    
    def self.save
-     @@all.each do |dog|
-			return dog.name
+     @@all << self
     end
   end
 end 
