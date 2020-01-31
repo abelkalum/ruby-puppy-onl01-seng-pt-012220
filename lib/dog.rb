@@ -27,6 +27,7 @@ class Dog
    end
    
    def self.save
-     @@ll << self
+     @@all.each {|dog| dog.save}
+      @@all << self
    end
 end 
