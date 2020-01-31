@@ -30,5 +30,4 @@ class Dog
      @@all << self
       return dog.name
     end
-  end
 end 
