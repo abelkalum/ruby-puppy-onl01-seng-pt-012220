@@ -1,8 +1,7 @@
 # Add your code here
 class Dog
  
-   @@all = []
-  end
+  @@all = []
  
   attr_accessor :name
  
