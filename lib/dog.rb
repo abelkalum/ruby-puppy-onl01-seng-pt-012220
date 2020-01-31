@@ -20,7 +20,7 @@ class Dog
   def print_all
     names.each do |name|
      puts "#{name}"
-     names += 1
+     
   end
   
   def clear_all
